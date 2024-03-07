@@ -1,4 +1,31 @@
 .welcome-photo{
     margin-top: 20px;
+    margin-left: 10%;
     text-align: left;
 }
+
+body {
+    background-color: rgb(199, 226, 235);
+}
+
+.container-wheelchair {
+    box-sizing: border-box;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+  
+  .welcome-photo {
+    width: 25%;
+    float: left;
+    padding: 15px;
+  }
+  
+  .Home-blurb {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    margin-left: 30px;
+  }
+  

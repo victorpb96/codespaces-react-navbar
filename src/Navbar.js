@@ -4,11 +4,11 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Look behind you
+        NDIS Support
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/About">About</CustomLink>
+        <CustomLink to="/contact">Contact</CustomLink>
       </ul>
     </nav>
   )

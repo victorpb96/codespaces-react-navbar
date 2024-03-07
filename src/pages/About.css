@@ -1,0 +1,18 @@
+.About-s-container {
+    width: 90vw;
+    margin-right: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    border: solid 2px red;
+    float: right;
+}
+
+.About-s-p {
+    box-sizing: border-box;
+    align-items: center;
+    border: solid 2px green;
+    font-family: sans-serif;
+}
