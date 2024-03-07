@@ -12,6 +12,9 @@ export default function About() {
 
         </p>
     </div>
+    <div className="support-2-you">
+        <img src={require('./../assets/support-2-you.jpg')} alt="Wheelchair-carer" width="300px"></img>
+      </div>
     </>
     )
   }
